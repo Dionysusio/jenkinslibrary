@@ -56,7 +56,7 @@ pipeline{
                                       doGenerateSubmoduleConfigurations: false, 
                                       extensions: [], 
                                       submoduleCfg: [], 
-                                      userRemoteConfigs: [[credentialsId: 'eyzk_1112@163.com', url: "${srcUrl}"]]])
+                                      userRemoteConfigs: [[credentialsId: 'b5e53d6054039472977eed556318686e6e4c6931', url: "${srcUrl}"]]])
 
                 }
             }
