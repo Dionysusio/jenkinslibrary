@@ -37,7 +37,7 @@ pipeline{
                     checkout([$class: 'GitSCM', branches: [[name: "${branchName}"]], 
                               doGenerateSubmoduleConfigurations: false, extensions: [], 
                               submoduleCfg: [], 
-                              userRemoteConfigs: [[credentialsId: 'af98a605-1dc1-414c-946d-0b3960ce406c', url: "${srcUrl}"]]])
+                              userRemoteConfigs: [[credentialsId: 'b5e53d6054039472977eed556318686e6e4c6931', url: "${srcUrl}"]]])
                 }
             }
         }
